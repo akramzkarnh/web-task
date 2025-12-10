@@ -557,4 +557,60 @@ html {
     color: darken(var(--primary-color), 10%); 
 }
 
+
+  /* Responsive Styles */
+  @media (max-width: 1200px) {
+    .container {
+      padding: 0 30px;
+    }
+  
+    .featured-books-wrapper {
+      margin: 0;
+    }
+  
+    .book-container {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .hero .container,
+    .about .container,
+    .digital-book .container {
+      flex-direction: column;
+    }
+  
+    .hero-content,
+    .about-content,
+    .digital-content {
+      padding-right: 0;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+  
+    .about-content h2,
+    .digital-content h2 {
+      text-align: center;
+    }
+  
+    .about-content h2:after,
+    .digital-content h2:after {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    .features .container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .blog-container {
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+  
+    .book-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+
  
