@@ -478,5 +478,83 @@ html {
     right: 3.1rem;
     
   }
-  
+
+
+/* Blog section */
+.blog {
+  padding: 5rem 0; 
+}
+
+
+.blog h2 { 
+  text-align: center;
+  font-size: 2.5rem; 
+  margin-bottom: 3rem;
+  font-weight: bold;
+  color: #333; 
+}
+
+.blog-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(21.875rem, 1fr)); 
+  gap: 2rem; 
+}
+
+.blog-card {
+  border: 0.0625rem solid var(--border-color); 
+  border-radius: 0.3125rem; 
+  overflow: hidden;
+  box-shadow: 0 0.625rem 1.25rem var(--shadow-color); 
+  background-color: var(--card-bg);
+}
+
+.blog-image img {
+  width: 100%;
+  height: 13.75rem; 
+  object-fit: cover;
+  display: block;
+}
+
+.blog-content {
+  padding: 1.25rem; 
+}
+
+.blog-content h4 { 
+  font-size: 1.125rem;
+  margin-bottom: 0.625rem; 
+  color: var(--primary-color); 
+  font-weight: bold; 
+}
+
+.blog-content p { 
+    font-size: 0.875rem; 
+    color: var(--text-color);
+    line-height: 1.6;
+    margin-bottom: 1rem; 
+}
+
+.blog-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem; 
+}
+
+
+.blog-icons i {
+  color: var(--primary-color);
+  font-size: 1rem; 
+}
+
+
+.blog-icons a {
+   color: var(--primary-color);
+   font-size: 1rem;
+   text-decoration: none; 
+}
+
+.blog-icons a:hover {
+    color: darken(var(--primary-color), 10%); 
+}
+
  
