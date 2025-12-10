@@ -611,6 +611,73 @@ html {
       grid-template-columns: repeat(3, 1fr);
     }
   }
+
+ @media (max-width: 576px) {
+    .features .container {
+      grid-template-columns: 1fr;
+    }
+  
+    .review-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .book-card {
+      width: 160px;
+    }
+  
+    .book-image {
+      height: 220px;
+    }
+  
+    .scroll-btn {
+      width: 30px;
+      height: 30px;
+      font-size: 12px;
+    }
+  
+    .hero-content h1 {
+      font-size: 32px;
+    }
+  
+    h2 {
+      font-size: 28px;
+    }
+  
+    .footer-content {
+      grid-template-columns: 1fr;
+    }
+  
+    .footer-links h3:after,
+    .footer-contact h3:after,
+    .footer-newsletter h3:after {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    .footer-links h3,
+    .footer-contact h3,
+    .footer-newsletter h3 {
+      text-align: center;
+    }
+  
+    .footer-links ul {
+      text-align: center;
+    }
+  
+    .footer-contact p {
+      justify-content: center;
+    }
+  
+    .social-icons {
+      justify-content: center;
+    }
+  
+    .digital-book {
+      padding: 80px 0;
+      min-height: 350px;
+    }
+  }
+  
   
 
  
