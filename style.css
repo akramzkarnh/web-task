@@ -422,3 +422,61 @@ html {
     background-color: #008b8b;
     transform: translateY(-2px);
   }
+
+
+ /* New Arrivals Section */
+  .new-arrivals {
+    background-color: var(--section-bg);
+    transition: background-color 0.3s ease;
+    padding: 80px 0;
+  }
+  
+  .book-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+  }
+  
+  .book-container .book-card {
+    width: 100%;
+  }
+  
+  .book-container .book-card-inner:hover {
+    box-shadow: var(--blue-shadow);
+  }
+  
+ 
+  
+  /* Digital Book Section - Final version */
+  .digital-book {
+    background-color: var(--section-bg);
+    position: relative;
+    overflow: hidden;
+   
+    padding: 10rem 0;
+    background-image: url("image/banner.jpg");
+    background-size: cover;
+  
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    
+  }
+  
+  
+  
+  
+  .digital-book .container {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    top:6.5rem;
+    right: 3.1rem;
+    
+  }
+  
+ 
